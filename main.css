@@ -1,0 +1,198 @@
+@font-face{font-family:'Open Sans';src:url("Fonts/OpenSans/OpenSans-Regular.woff");}
+@font-face{font-family:'Poppins';src:url("Fonts/Poppins/Poppins-SemiBold.woff");}
+
+/******************** General Stylings *********************/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: hsl(257, 40%, 49%);
+}
+
+h1{
+    font-family: 'Poppins';
+    font-size:30px;
+    font-weight:bolder;
+    color:#fff;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-size:17px;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    color:hsl(257, 40%, 49%);
+}
+
+.container{
+    text-align: center;
+}
+/************************ End ***************************/
+
+.logo{
+    text-align:left;
+    width:150px;
+    padding:15px;
+}
+
+.heroImgSection{
+    background: url('./images/bg-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.ttv{
+    background: url('./Images/');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    width: 100%;
+}
+
+.heroImg{
+    width:300px;
+    margin:0 auto 0 auto;
+}
+
+.headerContent{
+    margin-bottom: 30px;
+}
+
+.headerText{
+    text-transform: capitalize;
+    padding: .3em;
+    margin: 3.8em 0 2px auto;
+    width:350px;
+    margin:.8em auto 2px auto;
+}
+
+.headerContent p{
+    width: 320px;
+    margin: 0 auto 0 auto;
+}
+
+.register{
+    background: #fff;
+    width: calc(1em + 170px);
+    display: block;
+    margin: 0 auto 50px auto;
+    padding:8px;
+    border-radius:20px;
+}
+
+.register:hover{
+    background:tomato;
+}
+
+.register:hover a{
+    color:#fff;
+}
+
+.fab{
+    border:1px white solid;
+    border-radius: 100%;
+    padding: 8px ;
+    margin: 5px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size:17px;
+}
+
+i{
+    padding: 1rem;
+}
+
+.socialIcons{
+	margin-bottom:40px;
+}
+
+.copyright{
+    font-size:13px;
+    text-align: center;
+}
+
+/*** Challenge Copyright ***/
+.end{
+    font-size:12px;
+    text-align:center;
+    padding: 15px;
+} 
+
+/*** Link Color ***/
+.link_color{
+    color:wheat;
+} /** End Copyright **/
+
+.fa-facebook-f:hover{
+    background: #3b5998;
+    color:#fff;
+    border: 2px black solid;
+}
+
+.fa-instagram:hover{
+    color:#fff;
+    background: #e1306c;
+    border: 2px black solid;
+}
+.fa-twitter:hover{
+    color:#fff;
+    background: #00acee;
+    border: 2px black solid;
+}
+
+@media screen and (min-width:1200px){
+    .heroImgSection{
+        background-size: 0 0 ;
+    }
+    .container{
+        background-image:url('./images/bg-desktop.svg'); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100% 100%;
+        min-width: 100%;
+    }
+
+    .heroImg{
+        width:590px;
+        /*position:relative;*/
+        top:200px;
+        left:-100px;
+    }
+
+    .headerP{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align:left;
+        position: relative;
+        top:0px;
+        margin-right:190px;
+        margin-top:80px;
+    }
+
+    .register{
+        display: inline-block;
+        position: relative;
+        bottom:160px;
+        left: 9em;
+        width: calc(1em + 150px);
+    }
+
+    .socialIcons{
+        float: right;
+        clear: both;
+        position: relative;
+        bottom: 120px;
+        right:30px;
+    }
+}
