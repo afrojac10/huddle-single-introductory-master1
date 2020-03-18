@@ -1,5 +1,7 @@
 # Huddle Landing Page Single Introductory Master Section
 
+URL: https://afrojac10.github.io/huddle-single-introductory-master1/
+
 Nothing much to say :) but you know there are still bugs 
 but thats no problem i will be updating it soon
 
